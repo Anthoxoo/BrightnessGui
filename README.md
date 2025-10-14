@@ -15,6 +15,7 @@ chmod +x install.sh
 ./install.sh
 
 ## Usage
+chmod +x start.sh
 brightness-gui in the terminal
 
 ## Contributing
