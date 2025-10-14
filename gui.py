@@ -32,12 +32,3 @@ class MyWindow(QMainWindow):
     def valueChanged(self, value):
         self.__label.setText(str(value) + "%")
         b.set_brightness(value)
-
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-
-    myWindow = MyWindow()
-    myWindow.show()
-
-    sys.exit(app.exec())
