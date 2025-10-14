@@ -2,8 +2,8 @@ import sys
 
 from PySide6.QtWidgets import QApplication
 
-import brightness_service
-import gui
+from src import gui, brightness_service
+
 
 def main():
     check = brightness_service.check_brightnessctl()
