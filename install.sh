@@ -7,6 +7,12 @@ echo "║  Brightness GUI - Installation Script ║"
 echo "╚════════════════════════════════════════╝"
 echo ""
 
+# Checks if the user has python and pip
+if ! command -v python3 &> /dev/null || ! command -v pip3 &> /dev/null; then
+    echo "❌ Python3 and / or pip3 are not installed, please install it / them before launching the script again."
+    exit 1
+fi
+
 # Downloading brightnessctl if the user do not have it
 if ! command -v brightnessctl &> /dev/null; then
     echo "📦 brightnessctl not found. Would you like to install it ? (y/n)"
@@ -89,8 +95,4 @@ echo ""
 echo "╔════════════════════════════════════════╗"
 echo "║     ✅ Installation Complete!          ║"
 echo "╚════════════════════════════════════════╝"
-echo ""
-echo "Launch the application with:"
-echo "  • Command: brightness-gui"
-echo "  • Or find 'Brightness Control' in your application menu"
 echo ""
