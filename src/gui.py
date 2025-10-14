@@ -2,7 +2,7 @@ import sys
 
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QMainWindow, QSlider, QPushButton, QLabel, QApplication
-import brightness_service as b
+from . import brightness_service as b
 
 class MyWindow(QMainWindow):
 
