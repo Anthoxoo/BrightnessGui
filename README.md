@@ -13,6 +13,7 @@ cd brightness-gui
 chmod +x install.sh
 
 ### Run the installer
+cd BrightnessGui
 ./install.sh
 
 ## Usage
