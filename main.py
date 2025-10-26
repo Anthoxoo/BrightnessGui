@@ -11,7 +11,7 @@ def main():
         return check
     else:
         app = QApplication(sys.argv)
-
+        app.setStyleSheet(dark_mode) #Default : dark_mode but you can choose from light_mode,dark_mode and everforest
         # Create and show main window
         window = gui.MyWindow()
         window.show()
