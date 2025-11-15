@@ -17,8 +17,8 @@ chmod +x install.sh
 
 ## Usage
 chmod +x start.sh
-brightness-gui in the terminal
 
+Look for Brightness Control in your apps !
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
