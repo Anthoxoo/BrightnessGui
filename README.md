@@ -6,6 +6,7 @@ small **lightweight** GUI using **BrightnessCTL** for **wayland**, made in pytho
 
 ### Clone the repository
 git clone https://github.com/Anthoxoo/BrightnessGui.git
+
 cd brightness-gui
 
 ### Make the installer executable
