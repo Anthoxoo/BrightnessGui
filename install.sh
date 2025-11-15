@@ -60,7 +60,8 @@ mkdir -p "$DESKTOP_DIR"
 
 # Copying files
 echo "📂 Installing files..."
-cp -r src/* "$INSTALL_DIR/"
+cp -r src/* "$INSTALL_DIR/src"
+cp main.py start.sh "$INSTALL_DIR/"
 [ -f assets/icon.png ] && cp assets/icon.png "$INSTALL_DIR/"
 
 # Launch script
@@ -79,7 +80,7 @@ Version=1.0
 Type=Application
 Name=Brightness Control
 Comment=Simple GUI for brightnessctl
-Exec=$BIN_DIR/start.sh
+Exec=$INSTALL_DIR/start.sh
 Icon=$INSTALL_DIR/icon.png
 Terminal=false
 Categories=Utility;Settings;System;
